@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "AWSSDK.Core/3.7.10.11": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AWSSDK.Core/3.7.10.11": {
+      "sha512": "B+M7ggPC0FogATRPQxDXL0eTusCQtXulW4zCuX39yiHV8+u9MEXRytcAw0ZA3zFBYYx6ovl9lklho6OQo1DRRQ==",
+      "type": "package",
+      "path": "awssdk.core/3.7.10.11",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.7.10.11.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "AWSSDK.Core >= 3.7.10.11"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\David\\.nuget\\packages\\": {},
@@ -50,6 +88,12 @@
     "frameworks": {
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "AWSSDK.Core": {
+            "target": "Package",
+            "version": "[3.7.10.11, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

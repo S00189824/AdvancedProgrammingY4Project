@@ -15,4 +15,7 @@
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\David\.nuget\packages\awssdk.core\3.7.10.11</PkgAWSSDK_Core>
+  </PropertyGroup>
 </Project>

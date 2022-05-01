@@ -1,0 +1,21 @@
+
+{
+    "region" : "eu-west-1",
+    "configuration" : "Debug",
+    "framework"     : "net461",
+    "self-contained" : false,
+    "application"    : "SampleContact",
+    "environment"    : "SampleContact-dev",
+    "app-path"       : "/",
+    "iis-website"    : "Default Web Site",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-3861c347\";\"aws:ec2:vpc,Subnets\"=\"subnet-2c568476\"",
+    "solution-stack"       : "64bit Windows Server Core 2019 v2.9.1 running IIS 10.0",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "samplecontact-dev",
+    "instance-type"        : "t3a.medium",
+    "key-pair"             : "Linux Server Key",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role"
+}

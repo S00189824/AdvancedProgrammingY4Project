@@ -43,6 +43,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.7.10.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

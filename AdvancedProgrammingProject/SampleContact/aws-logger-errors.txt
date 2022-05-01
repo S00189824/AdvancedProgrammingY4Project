@@ -1,0 +1,63 @@
+Log Entry : 
+30/04/2022 23:06:32
+  :
+  :Amazon.Runtime.AmazonServiceException: Failed to retrieve credentials from EC2 Instance Metadata Service.
+   at Amazon.Runtime.DefaultInstanceProfileAWSCredentials.GetCredentials()
+   at Amazon.Runtime.DefaultInstanceProfileAWSCredentials.GetCredentialsAsync()
+   at Amazon.Runtime.Internal.CredentialsRetriever.<InvokeAsync>d__7`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Amazon.Runtime.Internal.RetryHandler.<InvokeAsync>d__10`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Amazon.Runtime.Internal.RetryHandler.<InvokeAsync>d__10`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.CallbackHandler.<InvokeAsync>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.CallbackHandler.<InvokeAsync>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.ErrorCallbackHandler.<InvokeAsync>d__5`1.MoveNext()
+-------------------------------
+Log Entry : 
+30/04/2022 23:06:32
+  :
+  :Amazon.Runtime.AmazonServiceException: Failed to retrieve credentials from EC2 Instance Metadata Service.
+   at Amazon.Runtime.DefaultInstanceProfileAWSCredentials.GetCredentials()
+   at Amazon.Runtime.DefaultInstanceProfileAWSCredentials.GetCredentialsAsync()
+   at Amazon.Runtime.Internal.CredentialsRetriever.<InvokeAsync>d__7`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Amazon.Runtime.Internal.RetryHandler.<InvokeAsync>d__10`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Amazon.Runtime.Internal.RetryHandler.<InvokeAsync>d__10`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.CallbackHandler.<InvokeAsync>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.CallbackHandler.<InvokeAsync>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.ErrorCallbackHandler.<InvokeAsync>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.MetricsHandler.<InvokeAsync>d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at AWS.Logger.Core.AWSLoggerCore.<LogEventTransmissionSetup>d__33.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at AWS.Logger.Core.AWSLoggerCore.<Monitor>d__31.MoveNext()
+-------------------------------
