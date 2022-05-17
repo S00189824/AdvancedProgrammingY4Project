@@ -1,0 +1,17 @@
+C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AdvProject\obj\Debug\AdvProject.csprojAssemblyReference.cache
+C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AdvProject\obj\Debug\MainWindow.g.cs
+C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AdvProject\obj\Debug\App.g.cs
+C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AdvProject\obj\Debug\AdvProject_MarkupCompile.cache
+C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AdvProject\obj\Debug\AdvProject_MarkupCompile.lref
+C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AdvProject\bin\Debug\AdvProject.exe.config
+C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AdvProject\bin\Debug\AdvProject.exe
+C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AdvProject\bin\Debug\AdvProject.pdb
+C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AdvProject\obj\Debug\MainWindow.baml
+C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AdvProject\obj\Debug\AdvProject.g.resources
+C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AdvProject\obj\Debug\AdvProject.Properties.Resources.resources
+C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AdvProject\obj\Debug\AdvProject.csproj.GenerateResource.cache
+C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AdvProject\obj\Debug\AdvProject.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AdvProject\obj\Debug\AdvProject.exe
+C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AdvProject\obj\Debug\AdvProject.pdb
+C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AdvProject\obj\Debug\ColorSwitch.g.cs
+C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AdvProject\obj\Debug\ColorSwitch.baml

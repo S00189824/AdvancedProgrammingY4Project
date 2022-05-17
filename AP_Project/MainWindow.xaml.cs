@@ -27,8 +27,9 @@ namespace AP_Project
 
         DispatcherTimer gameTimer = new DispatcherTimer();
         List<Ellipse> removeThis = new List<Ellipse>();
+        GameSelect gameSelectMenu = new GameSelect();
 
-        int spawnRate = 40;
+        int spawnRate = 20;
         int currentRate;
         int lastScore = 0;
         int health = 350;
@@ -42,6 +43,7 @@ namespace AP_Project
 
         MediaPlayer playClickSound = new MediaPlayer();
         MediaPlayer playPopSound = new MediaPlayer();
+        
 
         Uri ClickedSound;
         Uri PopedSound;
@@ -52,14 +54,37 @@ namespace AP_Project
         {
             InitializeComponent();
 
+            //background worker
+            backgroundWorker.DoWork += BackgroundWorker_DoWork;
+            backgroundWorker.ProgressChanged += BackgroundWorker_ProgressChanged;
+            backgroundWorker.RunWorkerCompleted += BackgroundWorker_RunWorkerCompleted;
+
+            
+
+            ClickedSound = new Uri("Pack://siteoforigins:,,,/Sound/clickedpop.mp3");
+            PopedSound = new Uri("Pack://siteoforigins:,,,/Sound/pop.mp3");
+
             gameTimer.Tick += GameLoop;
             gameTimer.Interval = TimeSpan.FromMilliseconds(20);
             gameTimer.Start();
 
             currentRate = spawnRate;
 
-            ClickedSound = new Uri("Pack://siteoforigins:,,,/Sound/clickedpop.mp3");
-            PopedSound = new Uri("Pack://siteoforigins:,,,/Sound/pop.mp3");
+        }
+
+        private void BackgroundWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void BackgroundWorker_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void BackgroundWorker_DoWork(object sender, DoWorkEventArgs e)
+        {
+            
         }
 
         private void GameLoop(object sender, EventArgs e)
@@ -115,7 +140,8 @@ namespace AP_Project
             }
             else
             {
-                GameOverFunction();
+                //GameOverFunction();
+                //gameSelectMenu.Show();
             }
 
             foreach (Ellipse item in removeThis)
@@ -130,16 +156,16 @@ namespace AP_Project
 
             if(spawnRate > 15)
             {
-                spawnRate = 10;
+                //spawnRate = 10;
                 growthRate = 1.5;
             }
         }
 
-        private void GameOverFunction()
+        public void GameOverFunction()
         {
             gameTimer.Stop();
 
-            MessageBox.Show("Game Over" + Environment.NewLine + "You Scored: " + score + Environment.NewLine + "Click ok to play again!");
+            MessageBox.Show("Game Over" + Environment.NewLine + "You Scored: " + score + Environment.NewLine + "Click ok to play next game");
 
             foreach (var y in MyCanvas.Children.OfType<Ellipse>())
             {
@@ -157,7 +183,11 @@ namespace AP_Project
             score = 0;
             currentRate = 5;
             removeThis.Clear();
+
             gameTimer.Start();
+
+            //MainWindow main = this;
+            //main.Close();
         }
 
         private void ClickOnCanvas(object sender, MouseButtonEventArgs e)

@@ -7,8 +7,19 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "AP_Project/1.0.0": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.10.11"
+        },
         "runtime": {
           "AP_Project.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.10.11": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.10.11"
+          }
         }
       }
     }
@@ -18,6 +29,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AWSSDK.Core/3.7.10.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B+M7ggPC0FogATRPQxDXL0eTusCQtXulW4zCuX39yiHV8+u9MEXRytcAw0ZA3zFBYYx6ovl9lklho6OQo1DRRQ==",
+      "path": "awssdk.core/3.7.10.11",
+      "hashPath": "awssdk.core.3.7.10.11.nupkg.sha512"
     }
   }
 }

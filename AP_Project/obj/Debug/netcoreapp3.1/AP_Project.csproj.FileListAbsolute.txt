@@ -19,3 +19,7 @@ C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AP_Project\obj\Debu
 C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AP_Project\obj\Debug\netcoreapp3.1\AP_Project.dll
 C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AP_Project\obj\Debug\netcoreapp3.1\AP_Project.pdb
 C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AP_Project\obj\Debug\netcoreapp3.1\AP_Project.genruntimeconfig.cache
+C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AP_Project\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AP_Project\obj\Debug\netcoreapp3.1\AP_Project.csproj.CopyComplete
+C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AP_Project\obj\Debug\netcoreapp3.1\GameSelect.g.cs
+C:\Users\David\Documents\Github\AdvancedProgrammingY4Project\AP_Project\obj\Debug\netcoreapp3.1\GameSelect.baml
